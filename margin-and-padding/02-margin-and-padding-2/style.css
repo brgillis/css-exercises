@@ -3,25 +3,46 @@ body {
   font-family: sans-serif;
 }
 
+* {
+  /* border: 2px solid red; */
+}
+
 .card {
-  width: 400px;
+  width: 600px;
   background: #fff;
   margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 8px;
+  margin-top: 0px;
+  margin-bottom: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 800;
 }
 
 .content {
   background: #e3f4ff;
+  margin: 8px auto;
+  padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 8px;
+  text-align: center;
+  margin-top: 12px;
 }
 
 button {
+  display: block;
   background: white;
   border: 1px solid #eee;
+  padding: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin: auto;
 }
